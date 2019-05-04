@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/white"
+    >
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FRUITVALE STATION"
+            android:gravity="center_horizontal"
+            android:padding="30dp"
+            android:textSize="30sp"
+            android:background="@drawable/fruitvale"
+             />
+
+        <TextView
+            android:id="@+id/daly_city"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:gravity="center_horizontal"
+            android:background="#0064a8"
+            android:text="Daly City"
+            android:onClick="openDalyCity"
+            android:textSize="40sp"
+            />
+        <TextView
+            android:id="@+id/dublin_pleasanton"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:gravity="center_horizontal"
+            android:background="#0064a8"
+            android:textSize="40sp"
+            android:onClick="openDublinPleasanton"
+            android:text="Dublin/Pleasanton"/>
+        <TextView
+            android:id="@+id/richmond"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:gravity="center_horizontal"
+            android:background="#0064a8"
+            android:textSize="40sp"
+            android:onClick="openRichmond"
+            android:text="Richmond"/>
+        <TextView
+            android:id="@+id/warm_springs"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:gravity="center_horizontal"
+            android:background="#0064a8"
+            android:textSize="40sp"
+            android:onClick="openWarmSprings"
+            android:text="Warm Springs"/>
+    </LinearLayout>
+
+</ScrollView>
